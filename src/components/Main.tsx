@@ -30,9 +30,6 @@ function Main() {
           <div className="content">
             <h1 className="name">Ike Kalu</h1>
             <div className="social_icons">
-              {/* <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer">
-                <GitHubIcon />
-              </a> */}
               <a href="https://www.linkedin.com/in/ikechukwu-kalu-5a767a318/" target="_blank" rel="noreferrer">
                 <LinkedInIcon />
               </a>

@@ -2,7 +2,10 @@ import React from "react";
 import powAd from '../assets/images/Pow AD.png';
 import talkShowThumb from '../assets/images/Talk Show thumbnail.png';
 import industrialFairThumb from '../assets/images/2024 industrial trade fair.png';
-import invincibleThumb from '../assets/images/INVINCIBLE-THUMBNAIL.png';
+
+import creative_society from '../assets/images/ilovemartian-20250613-0001.jpg';
+// import invincibleThumb from '../assets/images/INVINCIBLE-THUMBNAIL.png';
+// import invincibleThumb from '../assets/images/INVINCIBLE-THUMBNAIL.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -19,7 +22,7 @@ function Project() {
                     <a href="https://imgur.com/gallery/pow-express-ad-O6jSkxq" target="_blank" rel="noreferrer">
                         <h2>POW Express Ad</h2>
                     </a>
-                    <p>Animated ad for POW Express delivery services. Designed to highlight speed and reliability through fast-paced visuals and branding elements.</p>
+                    <p>This is a Professional edited promotional video for an asian cusine, shot and edited by me.</p>
                 </div>
 
                 {/* Talk Show Edit */}
@@ -30,7 +33,7 @@ function Project() {
                     <a href="https://imgur.com/gallery/talkshow-edit-NS9TavP" target="_blank" rel="noreferrer">
                         <h2>Talk Show Edit</h2>
                     </a>
-                    <p>Professional editing for a televised talk show. Included custom motion graphics, B-roll cuts, and audio balancing.</p>
+                    <p>Professional editing for a televised talk show. Included custom motion graphics, animated sequences & keyframes, and audio balancing.</p>
                 </div>
 
                 {/* 2024 Industrial Trade Fair */}
@@ -44,7 +47,19 @@ function Project() {
                     <p>Event highlight reel covering the 2024 Lagos Industrial Trade Fair. Edited for recap storytelling with dramatic visuals and music transitions.</p>
                 </div>
 
-                {/* INVINCIBLE Fan Edit */}
+                {/* Creative Society Design */}
+                <div className="project">
+                    <a href="https://imgur.com/a/yOURiMGURL" target="_blank" rel="noreferrer">
+                        <img src={creative_society} className="zoom" alt="Creative Society Thumbnail" width="100%" />
+                    </a>
+                    <a href="https://imgur.com/a/yOURiMGURL" target="_blank" rel="noreferrer">
+                        <h2>Creative Society</h2>
+                    </a>
+                    <p>A graphic design created for a brand named Creative Society. Focused on bold aesthetics and brand identity.</p>
+                </div>
+
+
+                {/* INVINCIBLE Thumbnail */}
                 <div className="project">
                     <a href="https://imgur.com/gallery/invincible-thumbnail-ARkGOFS" target="_blank" rel="noreferrer">
                         <img src={invincibleThumb} className="zoom" alt="Invincible Edit Thumbnail" width="100%" />
