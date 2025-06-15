@@ -2,10 +2,15 @@ import React from "react";
 import powAd from '../assets/images/Pow AD.png';
 import talkShowThumb from '../assets/images/Talk Show thumbnail.png';
 import industrialFairThumb from '../assets/images/2024 industrial trade fair.png';
-
+import invincibleThumb from '../assets/images/INVINCIBLE-THUMBNAIL.png';
 import creative_society from '../assets/images/ilovemartian-20250613-0001.jpg';
-// import invincibleThumb from '../assets/images/INVINCIBLE-THUMBNAIL.png';
-// import invincibleThumb from '../assets/images/INVINCIBLE-THUMBNAIL.png';
+
+import idsThumb from '../assets/images/41598_2025_88286_Fig1_HTML.png';
+import diseaseThumb from '../assets/images/chronic_Disease_App_Screenshot.png';
+import behanceThumb from '../assets/images/3d-rendering-ui-icon.png';
+import taxiThumb from '../assets/images/taxi ui.png';
+import medicUI from '../assets/images/medic_ui.png';
+
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -13,6 +18,54 @@ function Project() {
         <div className="projects-container" id="projects">
             <h1>Sample Projects</h1>
             <div className="projects-grid">
+
+                {/* Disease Detection App */}
+                <div className="project">
+                    <a href="https://disease-detection-2.streamlit.app/" target="_blank" rel="noreferrer">
+                        <img src={diseaseThumb} className="zoom" alt="Disease Detection App Thumbnail" width="100%" />
+                    </a>
+                    <a href="https://disease-detection-2.streamlit.app/" target="_blank" rel="noreferrer">
+                        <h2>Disease Detection App</h2>
+                    </a>
+                    <p>
+                        A disease risk prediction platform using Artificial Neural Networks (ANN) to assess risks for diabetes and kidney disease. I developed and trained the models, which are now accessible via Streamlit for public use.
+                    </p>
+                </div>
+
+                {/* IDS App */}
+                <div className="project">
+                    <a href="https://intrusion-detection-system-ike.streamlit.app/" target="_blank" rel="noreferrer">
+                        <img src={idsThumb} className="zoom" alt="IDS App Thumbnail" width="100%" />
+                    </a>
+                    <a href="https://intrusion-detection-system-ike.streamlit.app/" target="_blank" rel="noreferrer">
+                        <h2>Intrusion Detection System</h2>
+                    </a>
+                    <p>
+                        A machine learning-based Network Intrusion Detection System using KNN and Decision Tree, both achieving over 90% accuracy on a dataset with over 500,000 records. Integrated into a Streamlit web app for accessibility, with GPT-4 powered suggestions based on analyzed network traffic.
+                    </p>
+                </div>
+
+                {/* Taxi App UI */}
+                <div className="project">
+                    <a href="https://www.figma.com/design/sWtopwsMJwODz4UlBGEeRe/Taxi?node-id=39-334&embed-host=share" target="_blank" rel="noreferrer">
+                        <img src={taxiThumb} className="zoom" alt="Taxi UI Thumbnail" width="100%" />
+                    </a>
+                    <a href="https://www.figma.com/design/sWtopwsMJwODz4UlBGEeRe/Taxi?node-id=39-334&embed-host=share" target="_blank" rel="noreferrer">
+                        <h2>Taxi App UI Design</h2>
+                    </a>
+                    <p>UI/UX design for a Taxi Booking App. Clean and functional layout with mobile responsiveness, prototyped in Figma.</p>
+                </div>
+
+                {/* Medical App UI */}
+                <div className="project">
+                    <a href="https://www.figma.com/design/TPnO8jBDLsQFZbwv32pUyR/Medics---Medical-App-UI?node-id=0-1&p=f&t=Tth9CHQzJUwmBHFT-0" target="_blank" rel="noreferrer">
+                        <img src={medicUI} className="zoom" alt="Medical UI Thumbnail" width="100%" />
+                    </a>
+                    <a href="https://www.figma.com/design/TPnO8jBDLsQFZbwv32pUyR/Medics---Medical-App-UI?node-id=0-1&p=f&t=Tth9CHQzJUwmBHFT-0" target="_blank" rel="noreferrer">
+                        <h2>Medical App UI</h2>
+                    </a>
+                    <p>A comprehensive UI design for a medical app enabling patients and doctors to book sessions and hold video calls. Designed to streamline healthcare interaction with a focus on accessibility and clarity.</p>
+                </div>
 
                 {/* POW Express Ad */}
                 <div className="project">
@@ -22,7 +75,7 @@ function Project() {
                     <a href="https://imgur.com/gallery/pow-express-ad-O6jSkxq" target="_blank" rel="noreferrer">
                         <h2>POW Express Ad</h2>
                     </a>
-                    <p>This is a Professional edited promotional video for an asian cusine, shot and edited by me.</p>
+                    <p>This is a professionally edited promotional video for an Asian cuisine, shot and edited by me.</p>
                 </div>
 
                 {/* Talk Show Edit */}
@@ -33,7 +86,7 @@ function Project() {
                     <a href="https://imgur.com/gallery/talkshow-edit-NS9TavP" target="_blank" rel="noreferrer">
                         <h2>Talk Show Edit</h2>
                     </a>
-                    <p>Professional editing for a televised talk show. Included custom motion graphics, animated sequences & keyframes, and audio balancing.</p>
+                    <p>Professional editing for a televised talk show. Included custom motion graphics, animated sequences, keyframes, and audio balancing.</p>
                 </div>
 
                 {/* 2024 Industrial Trade Fair */}
@@ -44,7 +97,7 @@ function Project() {
                     <a href="https://imgur.com/JZW7eSX" target="_blank" rel="noreferrer">
                         <h2>2024 Industrial Trade Fair</h2>
                     </a>
-                    <p>Event highlight reel covering the 2024 Lagos Industrial Trade Fair. Edited for recap storytelling with dramatic visuals and music transitions.</p>
+                    <p>Promotional short clip shot and edited by me for the 2024 Lagos Industrial Trade Fair.</p>
                 </div>
 
                 {/* Creative Society Design */}
@@ -58,34 +111,31 @@ function Project() {
                     <p>A graphic design created for a brand named Creative Society. Focused on bold aesthetics and brand identity.</p>
                 </div>
 
-
                 {/* INVINCIBLE Thumbnail */}
                 <div className="project">
                     <a href="https://imgur.com/gallery/invincible-thumbnail-ARkGOFS" target="_blank" rel="noreferrer">
                         <img src={invincibleThumb} className="zoom" alt="Invincible Edit Thumbnail" width="100%" />
                     </a>
                     <a href="https://imgur.com/gallery/invincible-thumbnail-ARkGOFS" target="_blank" rel="noreferrer">
-                        <h2>INVINCIBLE Fan Edit</h2>
+                        <h2>Invincible Thumbnail</h2>
                     </a>
-                    <p>Fan edit based on the series "Invincible" showcasing intense emotional beats and action pacing with music sync.</p>
-                </div>
-                {/* Figma UI Design Embed */}
-                <div className="project">
-                    <h2>Taxi App UI Design (Figma)</h2>
-                    <div
-                        style={{ border: '1px solid rgba(0, 0, 0, 0.1)', marginTop: '1rem' }}
-                        dangerouslySetInnerHTML={{
-                            __html: `<iframe width="100%" height="450" src="https://embed.figma.com/design/sWtopwsMJwODz4UlBGEeRe/Taxi?node-id=39-334&embed-host=share" allowfullscreen></iframe>`,
-                        }}
-                    />
-                    <p>Interactive prototype for a Taxi Booking App, designed in Figma with focus on clean UI/UX for mobile use.</p>
+                    <p>This thumbnail was designed by me for a channel named Fictionverse.</p>
                 </div>
 
+                {/* Behance Showcase */}
+                <div className="project">
+                    <a href="https://www.behance.net/martian616" target="_blank" rel="noreferrer">
+                        <img src={behanceThumb} className="zoom" alt="Behance Showcase Thumbnail" width="100%" />
+                    </a>
+                    <a href="https://www.behance.net/martian616" target="_blank" rel="noreferrer">
+                        <h2>More Projects on Behance</h2>
+                    </a>
+                    <p>Explore more of my work including UI/UX designs, illustrations, and video edits on my Behance profile.</p>
+                </div>
 
             </div>
         </div>
     );
 }
-
 
 export default Project;
