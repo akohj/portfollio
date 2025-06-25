@@ -69,10 +69,10 @@ function Project() {
 
                 {/* POW Express Ad */}
                 <div className="project">
-                    <a href="https://imgur.com/gallery/pow-express-ad-O6jSkxq" target="_blank" rel="noreferrer">
+                    <a href="https://www.behance.net/gallery/228923335/Talk-Show-Edit" target="_blank" rel="noreferrer">
                         <img src={powAd} className="zoom" alt="POW Express Ad Thumbnail" width="100%" />
                     </a>
-                    <a href="https://imgur.com/gallery/pow-express-ad-O6jSkxq" target="_blank" rel="noreferrer">
+                    <a href="https://www.behance.net/gallery/228924501/Asian-Restaurant-AD" target="_blank" rel="noreferrer">
                         <h2>POW Express Ad</h2>
                     </a>
                     <p>This is a professionally edited promotional video for an Asian cuisine, shot and edited by me.</p>
@@ -80,10 +80,10 @@ function Project() {
 
                 {/* Talk Show Edit */}
                 <div className="project">
-                    <a href="https://imgur.com/gallery/talkshow-edit-NS9TavP" target="_blank" rel="noreferrer">
+                    <a href="https://www.behance.net/gallery/228923335/Talk-Show-Edit" target="_blank" rel="noreferrer">
                         <img src={talkShowThumb} className="zoom" alt="Talk Show Edit Thumbnail" width="100%" />
                     </a>
-                    <a href="https://imgur.com/gallery/talkshow-edit-NS9TavP" target="_blank" rel="noreferrer">
+                    <a href="https://www.behance.net/gallery/228923335/Talk-Show-Edit" target="_blank" rel="noreferrer">
                         <h2>Talk Show Edit</h2>
                     </a>
                     <p>Professional editing for a televised talk show. Included custom motion graphics, animated sequences, keyframes, and audio balancing.</p>
@@ -91,10 +91,10 @@ function Project() {
 
                 {/* 2024 Industrial Trade Fair */}
                 <div className="project">
-                    <a href="https://imgur.com/JZW7eSX" target="_blank" rel="noreferrer">
+                    <a href="https://www.behance.net/gallery/228931455/2024-commercial-and-industrial-trade-fair" target="_blank" rel="noreferrer">
                         <img src={industrialFairThumb} className="zoom" alt="2024 Industrial Fair Thumbnail" width="100%" />
                     </a>
-                    <a href="https://imgur.com/JZW7eSX" target="_blank" rel="noreferrer">
+                    <a href="https://www.behance.net/gallery/228931455/2024-commercial-and-industrial-trade-fair" target="_blank" rel="noreferrer">
                         <h2>2024 Industrial Trade Fair</h2>
                     </a>
                     <p>Promotional short clip shot and edited by me for the 2024 Lagos Industrial Trade Fair.</p>
@@ -102,10 +102,10 @@ function Project() {
 
                 {/* Creative Society Design */}
                 <div className="project">
-                    <a href="https://imgur.com/a/yOURiMGURL" target="_blank" rel="noreferrer">
+                    <a href="https://www.behance.net/gallery/228930767/creative-society" target="_blank" rel="noreferrer">
                         <img src={creative_society} className="zoom" alt="Creative Society Thumbnail" width="100%" />
                     </a>
-                    <a href="https://imgur.com/a/yOURiMGURL" target="_blank" rel="noreferrer">
+                    <a href="https://www.behance.net/gallery/228930767/creative-society" target="_blank" rel="noreferrer">
                         <h2>Creative Society</h2>
                     </a>
                     <p>A graphic design created for a brand named Creative Society. Focused on bold aesthetics and brand identity.</p>
@@ -113,10 +113,10 @@ function Project() {
 
                 {/* INVINCIBLE Thumbnail */}
                 <div className="project">
-                    <a href="https://imgur.com/gallery/invincible-thumbnail-ARkGOFS" target="_blank" rel="noreferrer">
+                    <a href="https://www.behance.net/gallery/228925431/Invincible-thumbnail" target="_blank" rel="noreferrer">
                         <img src={invincibleThumb} className="zoom" alt="Invincible Edit Thumbnail" width="100%" />
                     </a>
-                    <a href="https://imgur.com/gallery/invincible-thumbnail-ARkGOFS" target="_blank" rel="noreferrer">
+                    <a href="https://www.behance.net/gallery/228925431/Invincible-thumbnail" target="_blank" rel="noreferrer">
                         <h2>Invincible Thumbnail</h2>
                     </a>
                     <p>This thumbnail was designed by me for a channel named Fictionverse.</p>
