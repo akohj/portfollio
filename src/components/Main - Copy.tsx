@@ -39,7 +39,7 @@ function Main() {
               <LinkedInIcon />
             </a>
           </div>
-          <h1>Ike Kalu</h1>
+          <h1>Akoh</h1>
           <p>Network Security Analyst · Video Editor · DevOps Engr</p>
           
 

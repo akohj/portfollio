@@ -20,10 +20,10 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Network Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">NCC, Abuja</h4>
+            <h3 className="vertical-timeline-element-title">Junior Frontend Engineer(Cybersecurity Training)</h3>
+            <h4 className="vertical-timeline-element-subtitle">Will smart technology, Abuja</h4>
             <p>
-              Network Security, TCP/Ip configuring, Network Troubleshooting
+              Network Security, TCP/Ip configuring, Network Troubleshooting, UI/UX 
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -32,10 +32,10 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Network Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">NIGCOMSAT, Abuja</h4>
+            <h3 className="vertical-timeline-element-title">Product Design</h3>
+            <h4 className="vertical-timeline-element-subtitle">Blueskye, Abuja</h4>
             <p>
-              Network Troubleshooting, Server Management, Network Security
+              Logo and template design, UI/UX
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -44,8 +44,8 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Video Editor/ Content Coach</h3>
-            <h4 className="vertical-timeline-element-subtitle">Eric Digital LTD, Abuja</h4>
+            <h3 className="vertical-timeline-element-title">Video Editor/ Content Creator</h3>
+            <h4 className="vertical-timeline-element-subtitle">Abuja</h4>
             <p>
               Video Editing, Motion Graphics, Visual Storytelling, Video Production Techniques, Audience Engagement
 
@@ -57,10 +57,10 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Junior DevOps Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Hasob Integrated Services, Abuja</h4>
+            <h3 className="vertical-timeline-element-title">Junior Cybersecurity analyst and social media manager</h3>
+            <h4 className="vertical-timeline-element-subtitle">Aperture security solutions, Abuja</h4>
             <p>
-              System Monitoring, CI/CD Pipelines, Configuration Management
+              System Monitoring, security analysis, Configuration Management, Social Media Engagement and Monitoring
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

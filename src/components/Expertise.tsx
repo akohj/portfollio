@@ -5,14 +5,14 @@ import { faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 import adobeLogo from '../assets/images/Adobe.png'; // Adobe image
-import kaliImg from '../assets/images/kali-linux-wsallpaper-v7.png'; // adjust extension as needed
+import kaliImg from '../assets/images/pngaaa.com-4945239.png'; // adjust extension as needed
 
 
 const labelsFirst = [
     "Premiere Pro",
     "Photoshop",
     "After Effects",
-    "Illustrator",
+    "Davinci resolve",
     "Adobe Audition",
     "CapCut",
     "Canva"
@@ -23,7 +23,7 @@ const labelsSecond = [
     "Docker",
     "AWS",
     "Linux",
-    "Pandas",
+    
 ];
 
 const labelsThird = [
@@ -35,13 +35,9 @@ const labelsThird = [
 ];
 
 const labelsFourth = [
-    "Wireshark",
-    "Nmap",
-    "Kali Linux",
-    "Snort",
-    "Metasploit",
-    "Firewall Configuration",
-    "Splunk"
+    "React",
+    "Figma",
+    
 ];
 
 function Expertise() {
@@ -54,9 +50,9 @@ function Expertise() {
                     {/* Adobe Suite */}
                     <div className="skill">
                         <img src={adobeLogo} alt="Adobe Suite" style={{ height: '48px', marginBottom: '10px' }} />
-                        <h3>Adobe Suite</h3>
+                        <h3>Adobe and Davinci resolve</h3>
                         <p>
-                            I'm highly skilled in video editing and design. I mainly utilize Adobe Premiere Pro and After Effects for complex compositing, and Photoshop as my main design tool. I also use CapCut and Canva when needed to create polished, engaging visual content.
+                            I'm highly skilled in video editing and design. I mainly utilize Adobe Premiere Pro, Davinci resolve and After Effects for complex compositing, and Photoshop as my main design tool. I also use CapCut and Canva when needed to create polished, engaging visual content.
                         </p>
                         <div className="flex-chips">
                             <span className="chip-title">Creative stack:</span>
@@ -69,9 +65,9 @@ function Expertise() {
                     {/* DevOps */}
                     <div className="skill">
                         <FontAwesomeIcon icon={faDocker} size="3x" />
-                        <h3>DevOps & Automation</h3>
+                        <h3>Cybersecurity analyst</h3>
                         <p>
-                            As a Junior DevOps Engineer, I assist in setting up CI/CD pipelines, configuring infrastructure, and automating deployment processes using tools like Docker and GitHub Actions. I’m continuously building hands-on experience in cloud environments and DevOps best practices.
+                            As a Cybersecurity Analyst, I assist in monitoring systems for threats, analyzing security logs, and supporting incident response efforts. I work with tools like Wireshark, Splunk, and endpoint protection platforms while building hands-on experience in vulnerability assessment, SIEM operations, and cybersecurity best practices.
                         </p>
                         <div className="flex-chips">
                             <span className="chip-title">Tech stack:</span>
@@ -103,12 +99,13 @@ function Expertise() {
                             alt="Network Security"
                             style={{ height: '48px', marginBottom: '10px', objectFit: 'cover' }}
                         />
-                        <h3>Network Security Analyst</h3>
+                        <h3>UI/UX Design</h3>
                         <p>
-                            I analyze network traffic, monitor security systems, and identify vulnerabilities using tools like Wireshark and Snort. With hands-on experience in penetration testing and firewall management, I support organizations in maintaining secure infrastructure.
+                            As a UI/UX Designer, I assist in creating wireframes, designing user interfaces, and improving user journeys through research and prototyping. I work with tools like Figma, Adobe XD, and Canva, while building hands-on experience in responsive design, usability testing, and user-centered design principles.
                         </p>
                         <div className="flex-chips">
-                            <span className="chip-title">Security stack:</span>
+                            <span className="chip-title">UI/UX stack:</span>
+
                             {labelsFourth.map((label, index) => (
                                 <Chip key={index} className='chip' label={label} />
                             ))}

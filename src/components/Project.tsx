@@ -1,9 +1,9 @@
 import React from "react";
-import powAd from '../assets/images/Pow AD.png';
+import powAd from '../assets/images/BLUESKY.jpg';
 import talkShowThumb from '../assets/images/Talk Show thumbnail.png';
-import industrialFairThumb from '../assets/images/2024 industrial trade fair.png';
-import invincibleThumb from '../assets/images/INVINCIBLE-THUMBNAIL.png';
-import creative_society from '../assets/images/ilovemartian-20250613-0001.jpg';
+// import industrialFairThumb from '../assets/images/2024 industrial trade fair.png';
+// import invincibleThumb from '../assets/images/INVINCIBLE-THUMBNAIL.png';
+// import creative_society from '../assets/images/ilovemartian-20250613-0001.jpg';
 
 import idsThumb from '../assets/images/41598_2025_88286_Fig1_HTML.png';
 import diseaseThumb from '../assets/images/chronic_Disease_App_Screenshot.png';
@@ -69,13 +69,13 @@ function Project() {
 
                 {/* POW Express Ad */}
                 <div className="project">
-                    <a href="https://www.behance.net/gallery/228923335/Talk-Show-Edit" target="_blank" rel="noreferrer">
-                        <img src={powAd} className="zoom" alt="POW Express Ad Thumbnail" width="100%" />
+                    <a href="https://www.behance.net/gallery/229979751/Security-car-company" target="_blank" rel="noreferrer">
+                        <img src={powAd} className="zoom" alt="Figma Design of a Security Car Company" width="100%" />
                     </a>
-                    <a href="https://www.behance.net/gallery/228924501/Asian-Restaurant-AD" target="_blank" rel="noreferrer">
-                        <h2>POW Express Ad</h2>
+                    <a href="https://www.behance.net/gallery/229979751/Security-car-company" target="_blank" rel="noreferrer">
+                        <h2>Security Car Company UI/UX</h2>
                     </a>
-                    <p>This is a professionally edited promotional video for an Asian cuisine, shot and edited by me.</p>
+                    <p>This is a professionally edited Design for a security car company named blueskye </p>
                 </div>
 
                 {/* Talk Show Edit */}
@@ -89,7 +89,7 @@ function Project() {
                     <p>Professional editing for a televised talk show. Included custom motion graphics, animated sequences, keyframes, and audio balancing.</p>
                 </div>
 
-                {/* 2024 Industrial Trade Fair */}
+                {/* 2024 Industrial Trade Fair
                 <div className="project">
                     <a href="https://www.behance.net/gallery/228931455/2024-commercial-and-industrial-trade-fair" target="_blank" rel="noreferrer">
                         <img src={industrialFairThumb} className="zoom" alt="2024 Industrial Fair Thumbnail" width="100%" />
@@ -101,18 +101,18 @@ function Project() {
                 </div>
 
                 {/* Creative Society Design */}
-                <div className="project">
+                {/* <div className="project">
                     <a href="https://www.behance.net/gallery/228930767/creative-society" target="_blank" rel="noreferrer">
                         <img src={creative_society} className="zoom" alt="Creative Society Thumbnail" width="100%" />
                     </a>
                     <a href="https://www.behance.net/gallery/228930767/creative-society" target="_blank" rel="noreferrer">
                         <h2>Creative Society</h2>
                     </a>
-                    <p>A graphic design created for a brand named Creative Society. Focused on bold aesthetics and brand identity.</p>
-                </div>
+                    <p>A graphic design created for a brand named Creative Society. Focused on bold aesthetics and brand identity.</p> */}
+                {/* </div> */}
 
                 {/* INVINCIBLE Thumbnail */}
-                <div className="project">
+                {/* <div className="project">
                     <a href="https://www.behance.net/gallery/228925431/Invincible-thumbnail" target="_blank" rel="noreferrer">
                         <img src={invincibleThumb} className="zoom" alt="Invincible Edit Thumbnail" width="100%" />
                     </a>
@@ -120,14 +120,14 @@ function Project() {
                         <h2>Invincible Thumbnail</h2>
                     </a>
                     <p>This thumbnail was designed by me for a channel named Fictionverse.</p>
-                </div>
+                </div> */} 
 
                 {/* Behance Showcase */}
                 <div className="project">
-                    <a href="https://www.behance.net/martian616" target="_blank" rel="noreferrer">
+                    <a href="https://www.behance.net/akohsobe2d" target="_blank" rel="noreferrer">
                         <img src={behanceThumb} className="zoom" alt="Behance Showcase Thumbnail" width="100%" />
                     </a>
-                    <a href="https://www.behance.net/martian616" target="_blank" rel="noreferrer">
+                    <a href="https://www.behance.net/akohsobe2d" target="_blank" rel="noreferrer">
                         <h2>More Projects on Behance</h2>
                     </a>
                     <p>Explore more of my work including UI/UX designs, illustrations, and video edits on my Behance profile.</p>

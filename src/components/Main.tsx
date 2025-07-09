@@ -1,8 +1,8 @@
 import React from "react";
-import GitHubIcon from '@mui/icons-material/GitHub';
+// import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
-import gojoImg from '../assets/images/satoru-gojo.webp';
+import gojoImg from '../assets/images/akohprofile.jpg';
 
 function Main() {
   return (
@@ -10,7 +10,7 @@ function Main() {
       <div className="about-section">
         {/* Row layout for profile image and content */}
         <div className="profile-row">
-          
+
           {/* Image */}
           <div
             className="image-wrapper"
@@ -28,13 +28,15 @@ function Main() {
 
           {/* Name and Icons */}
           <div className="content">
-            <h1 className="name">Ike Kalu</h1>
+            <h1 className="name">Akoh</h1>
             <div className="social_icons">
-              <a href="https://www.linkedin.com/in/ikechukwu-kalu-5a767a318/" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/
+akoh-d-akoh-590675228
+/" target="_blank" rel="noreferrer">
                 <LinkedInIcon />
               </a>
             </div>
-            
+
           </div>
         </div>
 
@@ -42,16 +44,16 @@ function Main() {
         <div className="scroll-full-wrapper">
           <div className="scroll-track">
             <div className="scroll-text">
-              Network Security Analyst · Video Editor · DevOps Engr &nbsp; • &nbsp;
-              Network Security Analyst · Video Editor · DevOps Engr &nbsp; • &nbsp;
-              Network Security Analyst · Video Editor · DevOps Engr &nbsp; • &nbsp;
-              Network Security Analyst · Video Editor · DevOps Engr
+              Cybersecurity Analyst · Video Editor · UI/UX Design &nbsp; • &nbsp;
+              Cybersecurity Analyst · Video Editor · UI/UX Design  &nbsp; • &nbsp;
+              Cybersecurity Analyst · Video Editor · UI/UX Design  &nbsp; • &nbsp;
+              Cybersecurity Analyst · Video Editor · UI/UX Design
             </div>
             <div className="scroll-text">
-              Network Security Analyst · Video Editor · DevOps Engr &nbsp; • &nbsp;
-              Network Security Analyst · Video Editor · DevOps Engr &nbsp; • &nbsp;
-              Network Security Analyst · Video Editor · DevOps Engr &nbsp; • &nbsp;
-              Network Security Analyst · Video Editor · DevOps Engr
+              Cybersecurity Analyst · Video Editor · UI/UX Design&nbsp; • &nbsp;
+              Cybersecurity Analyst · Video Editor · UI/UX Design &nbsp; • &nbsp;
+              Cybersecurity Analyst · Video Editor · UI/UX Design&nbsp; • &nbsp;
+              Cybersecurity Analyst · Video Editor · UI/UX Design
             </div>
           </div>
         </div>
